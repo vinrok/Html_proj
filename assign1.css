@@ -1,0 +1,107 @@
+/*
+	External
+	Stylesheet...
+*/
+
+body {
+	   /* width: 100%; */
+	   /* height: 100%; */
+	/* margin: 20px 30px; */
+}
+
+#header {
+	background-color: rgba(0,0,0,0.9);
+	min-height: 70px;
+	color: #fff;
+	margin-top: -17px;
+}
+
+#header h2 {
+	padding-left: 15px;
+	float: left;
+	font-family: Lucida Console, 'Times New Roman';
+	font-weight: bold;
+	}
+
+#header li{
+	float: right;
+	font-size: 16px;
+}
+
+li {
+	list-style-type: none;
+	float: left;
+}
+
+#header nav li {
+	padding: 10px 15px;
+	margin: 10px 20px;
+}
+
+#content {
+	background-image: url(img/trek.jpg);
+	height: 600px;
+	padding: 100px;
+}
+
+#inner-content {
+	background-color: rgba(0,0,0,0.75);
+	color: #fff;
+			/* min-height: 200px; */
+	width: 500px;
+	padding: 70px 20px; */
+	position: relative;
+	overflow: hidden;
+}
+
+#inner-content h2 {
+	font-family: Helvetica;
+	font-variant: small-caps;
+}
+
+#inner-content button {
+	background-color: rgba(255,0,0,0.6);
+	color: #fffbbb;
+	padding: 20px 40px;
+	border-radius: 9px;
+	font-size: 17px;
+	font-variant: bolder;
+}
+
+.item {
+	background-color: #fff;
+	margin: 33px;
+	padding: 4px;
+	width: 300px;
+	border: 1px solid #a4a4a4;
+	text-align: center;
+	float: left;
+	margin-right: 20px;
+	display: inline-block;
+}
+
+#list {
+	padding-left: 100px;
+	padding-top: 40px;
+	height: 500px;
+	overflow: auto;
+}
+
+#foot {
+	background-color: rgba(0, 120, 240, 0.5);
+	min-height: 50px;
+	position: relative;
+	text-align: center;
+	border-top: 1px solid #000
+	}
+
+#foot li {
+	float: right;
+	padding: auto;
+	margin: 0px 20px;
+}
+
+#foot p {
+		margin: auto;
+		float: left;
+}
